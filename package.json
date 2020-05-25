@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-camera",
-  "version": "4.2.0-dev",
+  "name": "@mesh01/cordova-plugin-camera",
+  "version": "4.2.1",
   "description": "Cordova Camera Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -15,7 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-camera"
+    "url": "git+https://git@github.com/MESH01/cordova-plugin-camera.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-camera/issues"
